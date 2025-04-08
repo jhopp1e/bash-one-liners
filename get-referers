@@ -1,1 +1,1 @@
-grep -rhoP '(?i)(referer[\'":\s]*)(https?://[^\s"\'<>]+)' . | sed -E 's/.*(https?:\/\/[^\s"'\''<>]+).*/\1/' | sort -u > ~/Desktop/referers.txt
+grep -rhoP "(?i)(referer[\"':\\s]*)(https?://[^\\s\"'<>]+)" . | sed -E "s/.*(https?:\/\/[^[:space:]\"'<>]+).*/\1/" | sort -u > ~/Desktop/referers.txt
