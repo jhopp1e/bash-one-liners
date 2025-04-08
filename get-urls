@@ -1,0 +1,1 @@
+grep -rhoP '\b(?:https?|ftps?|sftp|ftp|file|ssh|git|telnet|ldap|ldaps|rtsp|mms|news|nntp|irc|ircs)://[^\s"<>]+' . | sort -u > ~/Desktop/urls.txt
