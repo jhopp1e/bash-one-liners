@@ -1,6 +1,6 @@
 # One Line File Analysis Bash Scripts
 
-This section provides a collection of one liner Bash commands designed to assist with analyzing and extracting useful information from multiple files within a directory and its subdirectories. These scripts are especially useful during investigations, threat intelligence gathering, or log analysis across various file types, including HTML, PHP, JSON, and text logs.
+A collection of one liner Bash commands designed to assist with analyzing and extracting useful information from multiple files within a directory and its subdirectories. These scripts are especially useful during investigations, threat intelligence gathering, or log analysis across various file types, including HTML, PHP, JSON, and text logs.
 
 ## What These Scripts Do
 
