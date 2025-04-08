@@ -1,0 +1,1 @@
+grep -rhoP 'href=["'\'']\K[^"'\'' >]+' . | sort -u > ~/Desktop/hrefs.txt
